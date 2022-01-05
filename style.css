@@ -1,0 +1,71 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+h1 {
+  font-size: 50px;
+  padding-left: 10px;
+}
+.half-width {
+  width: 50%;
+  margin-left: 150px;
+}
+.flexible-display {
+  display: flex;
+  margin-top: 70px;
+}
+.half-width img {
+  width: 70%;
+}
+
+.orange-color {
+  color: orange;
+}
+
+.heading-border {
+  border-left: 5px solid;
+  border-image: linear-gradient(red, tomato);
+  border-image-slice: 1;
+}
+
+.link-button {
+  text-decoration: none;
+  background-image: linear-gradient(rgb(255, 94, 0), tomato);
+  padding: 15px 40px;
+  border-radius: 10px;
+  color: white;
+  font-weight: 700;
+}
+
+.one-third-width {
+  /* width: 50%; */
+  /* margin-left: 100px; */
+  margin-right: 30px;
+  border-radius: 20px;
+  padding-left: 30px;
+  padding-right: 20px;
+  padding-bottom: 30px;
+  /* box-shadow: 10px 5px 10px black; */
+  /* background-color: yellow; */
+}
+
+.one-third-width img {
+  width: 50%;
+}
+
+#mission {
+  background-color: rgb(175, 255, 247);
+  margin-left: 150px;
+}
+#vission {
+  background-color: rgb(243, 193, 243);
+}
+#goals {
+  background-color: rgb(245, 245, 173);
+  margin-right: 150px;
+}
+.center-heading {
+  text-align: center;
+}
+.scroll-down {
+  margin-top: 50px;
+}
