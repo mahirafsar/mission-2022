@@ -112,3 +112,91 @@ footer p {
   /* padding-top: 1px; */
   text-align: center;
 }
+.bonus-section {
+  background-color: rgb(236, 191, 236);
+  margin-top: 40px;
+}
+.contact-me {
+  /* background-image: url(./images/pictures/contact-me.jpg); */
+  background-color: white;
+  /* background-repeat: no-repeat; */
+  /* background-size: 100%; */
+  /* text-align: center; */
+  border: 2px solid white;
+  display: inline-block;
+  margin: 50px 50px;
+  /* padding-left: 5%; */
+  /* padding-right: 5%; */
+  margin-left: 10%;
+  margin-right: 10%;
+  /* padding: 0px 0px; */
+  /* margin-right: 50%; */
+
+  /* color: black; */
+  /* padding: 5px; */
+  /* margin-top: 100px; */
+}
+.fname {
+  width: 25%;
+  padding: 20px 50px;
+  display: inline-block;
+  margin-left: 150px;
+  margin-right: 75px;
+  border: 1px solid black;
+  border-radius: 20px;
+  /* box-sizing: border-box; */
+}
+.email {
+  width: 25%;
+  padding: 20px 50px;
+  /* margin-left: 5px; */
+  margin-right: 100px;
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 20px;
+  /* box-sizing: border-box; */
+}
+
+.subject {
+  width: 73%;
+  padding: 20px 10px;
+  margin-top: 20px;
+  margin-left: 150px;
+  margin-right: 100px;
+  /* display: inline-block; */
+  /* border: 1px solid black; */
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+
+.message {
+  width: 73%;
+  padding: 20px 20px;
+  margin-top: 20px;
+  margin-left: 150px;
+  margin-right: 100px;
+  /* display: inline-block; */
+  /* border: 1px solid black; */
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+
+.submit {
+  width: 10%;
+  /* padding: 10px 10px; */
+  margin-left: 45%;
+  /* display: inline-block; */
+  /* border: 1px solid black; */
+  /* border-radius: 20px; */
+  /* box-sizing: border-box; */
+  margin-top: 20px;
+  margin-bottom: 20px;
+  /* color: rgb(84, 84, 182); */
+  font-size: 15px;
+  /* text-decoration: none; */
+  padding: 20px 30px;
+  background-image: linear-gradient(rgb(255, 0, 200), rgb(218, 129, 195));
+  color: aliceblue;
+  font-weight: 700;
+  border-radius: 20px;
+}
