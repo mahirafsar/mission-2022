@@ -1,20 +1,30 @@
 body {
   font-family: "Poppins", sans-serif;
+  margin: 0;
+  /* margin-left: 150px; */
+}
+.top-padding {
+  padding-top: 50px;
 }
 h1 {
   font-size: 50px;
-  padding-left: 10px;
+  /* padding-left: 10px; */
 }
 .half-width {
   width: 50%;
-  margin-left: 150px;
+  /* margin-top: 40px; */
 }
 .flexible-display {
   display: flex;
   margin-top: 70px;
+  margin-left: 150px;
 }
 .half-width img {
-  width: 70%;
+  width: 75%;
+  margin-left: 30px;
+}
+.half-width p {
+  padding-right: 25px;
 }
 
 .orange-color {
@@ -27,9 +37,14 @@ h1 {
   border-image-slice: 1;
 }
 
+.heading-border h1 {
+  font-size: 50px;
+  padding-left: 10px;
+}
+
 .link-button {
   text-decoration: none;
-  background-image: linear-gradient(rgb(255, 94, 0), tomato);
+  background-image: linear-gradient(orange, tomato);
   padding: 15px 40px;
   border-radius: 10px;
   color: white;
@@ -54,7 +69,7 @@ h1 {
 
 #mission {
   background-color: rgb(175, 255, 247);
-  margin-left: 150px;
+  /* margin-left: 150px; */
 }
 #vission {
   background-color: rgb(243, 193, 243);
@@ -68,4 +83,32 @@ h1 {
 }
 .scroll-down {
   margin-top: 50px;
+}
+#develop-part {
+  margin-right: 100px;
+}
+.footer {
+  /* position: absolute; */
+  /* bottom: 0; */
+  width: 100%;
+  height: 170px; /* Height of the footer */
+  background: black;
+  margin-top: 100px;
+}
+
+footer h1 {
+  /* margin-top: 100px; */
+  padding-top: 10px;
+  color: aliceblue;
+  text-align: center;
+}
+
+.red-color {
+  color: red;
+}
+
+footer p {
+  color: aliceblue;
+  /* padding-top: 1px; */
+  text-align: center;
 }
